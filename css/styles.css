@@ -1,0 +1,268 @@
+
+body {
+  font-family: "Montserrat";
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Montserrat-Bold";
+}
+
+p {
+  color: #8f8f8f;
+}
+
+/* Headings */
+
+.big-heading {
+  font-family: "Montserrat-Black";
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* Containers */
+
+.container-fluid{
+  padding: 7% 15%;
+}
+
+/* Sections */
+
+.colored-section {
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+.white-section {
+  background-color: #fff;
+}
+
+/* Navigation Bar */
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.download
+{
+  text-decoration: none;
+  color: white;
+}
+.download-button :hover
+{
+  text-decoration: none;
+}
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+  color: black;
+}
+
+.nav-link {
+  font-size: 1.6rem;
+  font-family: "Montserrat-Light";
+
+}
+
+/* Buttons */
+
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* Title Section */
+
+.Socialicons
+{
+  height: 100px;
+  width: 40px;
+}
+
+#title {
+  background-color: #ff4c68;
+  color: #fff;
+  text-align: left;
+}
+
+#title .container-fluid {
+  padding: 3% 15% 7%;
+}
+
+/* Title Image */
+
+.title-image {
+  width: 60%;
+  position: relative;
+
+  left: 15%;
+  bottom: 1%;
+  border-radius: 50%;
+
+}
+/* Features Section */
+
+#features {
+  position: relative;
+}
+
+.feature-title {
+  font-size: 1.5rem;
+}
+
+.feature-box {
+  padding: 4.5%;
+}
+
+.icon {
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #ff4c68;
+}
+
+/* Testimonial Section */
+
+#Project {
+  background-color: #ef8172;
+}
+.circular
+{
+  border-radius: 100%;
+}
+
+.testimonial-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.testimonial-image {
+  width: 20%;
+  height: 15%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+
+#press {
+  background-color: #ef8172;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* Pricing Section */
+
+#Education {
+  padding: 100px;
+}
+
+.price-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+.ac-img{
+  height: 200px;
+  width: 200px;
+  border-radius: 80%;
+  position: absolute;
+}
+.ac-img1
+{
+  height: 200px;
+  width: 220px;
+  border-radius: 80%;
+}
+
+.img2
+{
+  left: 5%;
+    opacity: 75%;
+}
+.img3
+{
+  right: 5%;
+    opacity: 75%;
+}
+.img4
+{
+  bottom: 5%;
+  right: 5%;
+    opacity: 75%;
+}
+.img5
+{
+  bottom: 5%;
+  left: 5%;
+  opacity: 75%;
+}
+.container-fluid2
+{
+  position: relative;
+}
+
+.achievement
+{
+  margin: 40px;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+/* CTA Section */
+
+
+/* Footer Section */
+
+.container-fluid2
+{
+  padding-top: 3%;
+  padding-bottom: 3%;
+
+}
+.social-icon {
+  margin: 20px 18px;
+  font-size: 100px;
+  width: 45px;
+}
+.social-icon:hover
+{
+  color: blue;
+}
+
+@media (max-width: 1228px) {
+
+  #title {
+    text-align: center;
+  }
+
+  .title-image {
+    position: static;
+    transform: rotate(0);
+  }
+  .op
+  {
+    opacity: 0;
+  }
+}
+.caption
+{
+  border-radius: 100%;
+  height: 65%;
+  width: 20%;
+}
